@@ -4,3 +4,7 @@ __pycache__/
 *$py.class
 
 .env
+
+# PySMILE license
+smile_license*
+pysmile_license*
