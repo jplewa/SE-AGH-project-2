@@ -1,47 +1,26 @@
-data = {
-    'cap': {
-        'shape': {
-            'flat': 'xnegative',
-            'bell': 'xnegative',
-            'convex': 'xnegative',
-            'conical': 'xnegative'},
-        'surface': {
-            'scaly': 'xnegative',
-            'smooth': 'xnegative',
-            'fibrous': 'xnegative'},
-        'color': {
-            'white': 'xnegative',
-            'brown': 'xnegative',
-            'pink': 'xnegative'}},
-    'bruises': {
-        'presence': {
-            'visible': 'xnegative'}},
-    'gills': {
-        'spacing': {
-            'close': 'xnegative',
-            'crowded': 'xnegative'}},
-    'stalk_root': {
-        'shape': {
-            'bulbous': 'xnegative',
-            'club': 'xnegative',
-            'equal': 'xnegative'}},
-    'stalk_above_ring': {
-        'color': {
-            'white': 'xnegative',
-            'red': 'xnegative'}},
-    'stalk_below_ring': {
-        'color': {
-            'white': 'xnegative',
-            'red': 'xnegative'}},
-    'rings': {
-        'number': {
-            'none': 'xnegative',
-            'one': 'xnegative',
-            'two': 'xnegative'}},
-    'veil': {
-        'color': {
-            'brown': 'xnegative',
-            'orange': 'xnegative',
-            'yellow': 'xnegative',
-            'white': 'xnegative'}}
-}
+parameters = [
+    'cap_shape',
+    'cap_surface',
+    'cap_color',
+    'bruises',
+    'odor',
+    'gill_attachment',
+    'gill_spacing',
+    'gill_size',
+    'gill_color',
+    'stalk_shape',
+    'stalk_root',
+    'stalk_surface_above_ring',
+    'stalk_surface_below_ring',
+    'stalk_color_above_ring',
+    'stalk_color_below_ring',
+    'veil_type',
+    'veil_color',
+    'ring_number',
+    'ring_type',
+    'spore_print_color',
+    'population',
+    'habitat'
+]
+
+data = {parameter: None for parameter in parameters}
