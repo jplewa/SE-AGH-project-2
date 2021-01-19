@@ -9,20 +9,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>832</width>
-    <height>874</height>
+    <width>1173</width>
+    <height>792</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>832</width>
-    <height>874</height>
+    <width>1173</width>
+    <height>792</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>832</width>
-    <height>874</height>
+    <width>1173</width>
+    <height>792</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -36,876 +36,12 @@ color: black;</string>
    <bool>true</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="horizontalLayoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>215</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="cap_shape_layout">
-     <item>
-      <widget class="QRadioButton" name="cap_shape_flat">
-       <property name="text">
-        <string>flat</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_shape_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="cap_shape_bell">
-       <property name="text">
-        <string>bell</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_shape_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="cap_shape_convex">
-       <property name="text">
-        <string>convex</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_shape_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="cap_shape_conical">
-       <property name="text">
-        <string>conical</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_shape_group</string>
-       </attribute>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>195</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CAP SHAPE</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>215</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/cap-shape-bell/img/cap-shape-bell.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>265</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CAP SURFACE</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_2">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>285</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="cap_surface_layout">
-     <item>
-      <widget class="QRadioButton" name="cap_surface_scaly">
-       <property name="text">
-        <string>scaly</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_surface_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="cap_surface_smooth">
-       <property name="text">
-        <string>smooth</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_surface_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="cap_surface_fibrous">
-       <property name="text">
-        <string>fibrous</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_surface_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_22">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>285</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/cap-surface-smooth/img/cap-surface-smooth.png)</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>400</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>STALK ROOT</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_3">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>420</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="stalk_root_layout">
-     <item>
-      <widget class="QRadioButton" name="stalk_root_bulbous">
-       <property name="text">
-        <string>bulbous</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">stalk_root_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="stalk_root_club">
-       <property name="text">
-        <string>club</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">stalk_root_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="stalk_root_equal">
-       <property name="text">
-        <string>equal</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">stalk_root_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_23">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>420</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/stalk-root-club/img/stalk-root-club.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>610</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>GILL SPACING</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_4">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>630</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="gill_spacing_layout">
-     <item>
-      <widget class="QRadioButton" name="gill_spacing_close">
-       <property name="text">
-        <string>close</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">gill_spacing_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="gill_spacing_crowded">
-       <property name="text">
-        <string>crowded</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">gill_spacing_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_25">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_24">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label_9">
-    <property name="geometry">
-     <rect>
-      <x>350</x>
-      <y>630</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/gill-spacing-crowded/img/gill-spacing-crowded.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>335</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CAP COLOR</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_5">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>355</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="cap_color_layout">
-     <item>
-      <widget class="QRadioButton" name="cap_color_white">
-       <property name="text">
-        <string>white</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_color_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="cap_color_pink">
-       <property name="text">
-        <string>pink</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_color_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="cap_color_brown">
-       <property name="text">
-        <string>brown</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">cap_color_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_35">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label_11">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>630</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/gill-spacing-close/img/gill-spacing-close.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_12">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>125</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>BRUISES</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_6">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>145</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="bruises_layout">
-     <item>
-      <widget class="QRadioButton" name="bruises_false">
-       <property name="text">
-        <string>false</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">bruises_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="bruises_true">
-       <property name="text">
-        <string>true</string>
-       </property>
-       <property name="checked">
-        <bool>false</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">bruises_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_32">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_31">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label_13">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>215</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/cap-shape-flat/img/cap-shape-flat.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_14">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>470</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>STALK COLOR ABOVE RING</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_7">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>490</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="stalk_color_above_ring_layout">
-     <item>
-      <widget class="QRadioButton" name="stalk_color_above_ring_white">
-       <property name="text">
-        <string>white</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">stalk_color_above_ring_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="stalk_color_above_ring_red">
-       <property name="text">
-        <string>red</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">stalk_color_above_ring_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_28">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_27">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label_15">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>420</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/stalk-root-bulbous/img/stalk-root-bulbous.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_16">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>540</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>STALK COLOR BELOW RING</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_8">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>560</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="stalk_color_below_ring_layout">
-     <item>
-      <widget class="QRadioButton" name="stalk_color_below_ring_white">
-       <property name="text">
-        <string>white</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">stalk_color_below_ring_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="stalk_color_below_ring_red">
-       <property name="text">
-        <string>red</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">stalk_color_below_ring_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_30">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_29">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label_17">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>285</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/cap-surface-scaly/img/cap-sufrce-scaly.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_18">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>680</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>RING NUMBER</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_9">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>700</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="ring_number_layout">
-     <item>
-      <widget class="QRadioButton" name="ring_number_none">
-       <property name="text">
-        <string>none</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">ring_number_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="ring_number_one">
-       <property name="text">
-        <string>one</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">ring_number_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="ring_number_two">
-       <property name="text">
-        <string>two</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">ring_number_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_26">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label_20">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>750</y>
-      <width>611</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>VEIL COLOR</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_10">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>770</y>
-      <width>611</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="veil_color_layout">
-     <item>
-      <widget class="QRadioButton" name="veil_color_white">
-       <property name="text">
-        <string>white</string>
-       </property>
-       <property name="checked">
-        <bool>true</bool>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">veil_color_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="veil_color_yellow">
-       <property name="text">
-        <string>yellow</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">veil_color_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="veil_color_orange">
-       <property name="text">
-        <string>orange</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">veil_color_group</string>
-       </attribute>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="veil_color_brown">
-       <property name="text">
-        <string>brown</string>
-       </property>
-       <attribute name="buttonGroup">
-        <string notr="true">veil_color_group</string>
-       </attribute>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="label_19">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>285</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/cap-surface-fibrous/img/cap-surface-fibrous.png)</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_21">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>420</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/stalk-root-equal/img/stalk-root-equal.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_33">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>215</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/cap-shape-conical/img/cap-shape-conical.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_34">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>215</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/cap-shape-convex/img/cap-shape-convex.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="is_edible_button">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>810</y>
-      <width>181</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgba(46, 204, 113, 0.4);</string>
-    </property>
-    <property name="text">
-     <string>Is this mushroom edible?</string>
-    </property>
-    <property name="autoDefault">
-     <bool>false</bool>
-    </property>
-    <property name="default">
-     <bool>false</bool>
-    </property>
-    <property name="flat">
-     <bool>false</bool>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>20</x>
       <y>20</y>
-      <width>611</width>
+      <width>1131</width>
       <height>81</height>
      </rect>
     </property>
@@ -916,25 +52,12 @@ color: black;</string>
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:600;&quot;&gt;MUSHROOMS&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CHECK IF THE MUSHROOM IS EDIBLE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_36">
+   <widget class="QPushButton" name="clear_selected_button">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>125</y>
-      <width>551</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#595959;&quot;&gt;MANDATORY FIELD&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="is_edible_button_2">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
+      <x>970</x>
       <y>110</y>
-      <width>131</width>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
@@ -954,32 +77,2797 @@ color: black;</string>
      <bool>false</bool>
     </property>
    </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>1131</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-715</y>
+       <width>1129</width>
+       <height>1244</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>CAP SHAPE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="cap_shape_layout">
+        <item>
+         <widget class="QRadioButton" name="cap_shape_bell">
+          <property name="text">
+           <string>bell      </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_shape_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_shape_conical">
+          <property name="text">
+           <string>conical   </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_shape_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_shape_convex">
+          <property name="text">
+           <string>convex    </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_shape_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_shape_flat">
+          <property name="text">
+           <string>flat      </string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <property name="autoExclusive">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_shape_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_shape_knobbed">
+          <property name="text">
+           <string>knobbed    </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_shape_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QRadioButton" name="cap_shape_sunken">
+          <property name="text">
+           <string>sunken      </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_shape_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_47">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_48">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_172">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_49">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_51">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_52">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>CAP SURFACE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="cap_surface_layout">
+        <item>
+         <widget class="QRadioButton" name="cap_surface_fibrous">
+          <property name="text">
+           <string>fibrous    </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_surface_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_surface_grooves">
+          <property name="text">
+           <string>grooves   </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_surface_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_surface_scaly">
+          <property name="text">
+           <string>scaly       </string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_surface_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_surface_smooth">
+          <property name="text">
+           <string>smooth    </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_surface_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_22">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_53">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_50">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_54">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_55">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_173">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_171">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_56">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_57">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>CAP COLOR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="cap_color_layout">
+        <item>
+         <widget class="QRadioButton" name="cap_color_brown">
+          <property name="text">
+           <string>brown</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_color_buff">
+          <property name="text">
+           <string>buff</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_color_gray">
+          <property name="text">
+           <string>gray</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_color_green">
+          <property name="text">
+           <string>green</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_color_pink">
+          <property name="text">
+           <string>pink</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_color_purple">
+          <property name="text">
+           <string>purple</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_color_red">
+          <property name="text">
+           <string>red</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_color_white">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>white</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_color_yellow">
+          <property name="text">
+           <string>yellow</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="cap_color_cinnamon">
+          <property name="text">
+           <string>cinnamon</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">cap_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_58">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_170">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>BRUISES</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="bruises_layout">
+        <item>
+         <widget class="QRadioButton" name="bruises_true">
+          <property name="text">
+           <string>true</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">bruises_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="bruises_false">
+          <property name="text">
+           <string>false</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">bruises_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_39">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_38">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_32">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_169">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_41">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_42">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_43">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_44">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_45">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_46">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_31">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="odorlabel">
+        <property name="text">
+         <string>ODOR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="odor_layout">
+        <item>
+         <widget class="QRadioButton" name="odor_almond">
+          <property name="text">
+           <string>almond</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">odor_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="odor_anise">
+          <property name="text">
+           <string>anise</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">odor_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="odor_creosote">
+          <property name="text">
+           <string>creosote</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">odor_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="odor_fishy">
+          <property name="text">
+           <string>fishy</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">odor_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="odor_foul">
+          <property name="text">
+           <string>foul</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">odor_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="odor_musty">
+          <property name="text">
+           <string>musty</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">odor_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="odor_none">
+          <property name="text">
+           <string>none</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">odor_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="odor_pungent">
+          <property name="text">
+           <string>pungent</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">odor_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="odor_spicy">
+          <property name="text">
+           <string>spicy</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">odor_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_59">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_60">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_61">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_35">
+        <property name="text">
+         <string>GILL ATTACHMENT</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="gill_attachment_layout">
+        <item>
+         <widget class="QRadioButton" name="gill_attachment_attached">
+          <property name="text">
+           <string>attached  </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_attachment_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_attachment_free">
+          <property name="text">
+           <string>free</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_attachment_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_attachment_notched">
+          <property name="text">
+           <string>notched</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_attachment_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_attachment_descending">
+          <property name="text">
+           <string>descending</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_attachment_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_40">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_63">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_64">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_65">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_66">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_67">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_68">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_62">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>GILL SPACING</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="gill_spacing_layout">
+        <item>
+         <widget class="QRadioButton" name="gill_spacing_close">
+          <property name="text">
+           <string>close</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_spacing_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_spacing_distant">
+          <property name="text">
+           <string>distant</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_spacing_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_spacing_crowded">
+          <property name="text">
+           <string>crowded</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_spacing_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_25">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_69">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_70">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_71">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_72">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_73">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_74">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_75">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_24">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_76">
+        <property name="text">
+         <string>GILL SIZE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="gill_size_layout">
+        <item>
+         <widget class="QRadioButton" name="gill_size_broad">
+          <property name="text">
+           <string>broad</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_size_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_size_narrow">
+          <property name="text">
+           <string>narrow</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_size_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_77">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_78">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_86">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_79">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_80">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_81">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_82">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_83">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_84">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_85">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_37">
+        <property name="text">
+         <string>GILL COLOR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="gill_color_layout">
+        <item>
+         <widget class="QRadioButton" name="gill_color_black">
+          <property name="text">
+           <string>black      </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_brown">
+          <property name="text">
+           <string>brown     </string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_buff">
+          <property name="text">
+           <string>buff</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_gray">
+          <property name="text">
+           <string>gray</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_green">
+          <property name="text">
+           <string>green</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_orange">
+          <property name="text">
+           <string>orange</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_pink">
+          <property name="text">
+           <string>pink</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_purple">
+          <property name="text">
+           <string>purple</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_red">
+          <property name="text">
+           <string>red</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_white">
+          <property name="text">
+           <string>white</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_yellow">
+          <property name="text">
+           <string>yellow</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="gill_color_chocolate">
+          <property name="text">
+           <string>chocolate</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">gill_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_97">
+        <property name="text">
+         <string>STALK SHAPE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="stalk_shape_layout">
+        <item>
+         <widget class="QRadioButton" name="stalk_shape_enlarging">
+          <property name="text">
+           <string>enlarging</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_shape_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_shape_tapering">
+          <property name="text">
+           <string>tapering</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_shape_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_87">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_88">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_89">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_90">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_91">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_168">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_92">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_93">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_175">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_96">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>STALK ROOT</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="stalk_root_layout">
+        <item>
+         <widget class="QRadioButton" name="stalk_root_bulbous">
+          <property name="text">
+           <string>bulbous</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_root_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_root_club">
+          <property name="text">
+           <string>club</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_root_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_root_cup">
+          <property name="text">
+           <string>cup</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_root_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_root_equal">
+          <property name="text">
+           <string>equal</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_root_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_root_rhizomorphs">
+          <property name="text">
+           <string>rhizomorphs</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_root_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_root_rooted">
+          <property name="text">
+           <string>rooted</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_root_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_root_missing">
+          <property name="text">
+           <string>missing</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_root_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_174">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_99">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_100">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_101">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_23">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_102">
+        <property name="text">
+         <string>STALK SURFACE ABOVE RING</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="stalk_surface_above_ring_layout">
+        <item>
+         <widget class="QRadioButton" name="stalk_surface_above_ring_fibrous">
+          <property name="text">
+           <string>fibrous</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_surface_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_surface_above_ring_scaly">
+          <property name="text">
+           <string>scaly</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_surface_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_surface_above_ring_silky">
+          <property name="text">
+           <string>silky</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_surface_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_surface_above_ring_smooth">
+          <property name="text">
+           <string>smooth</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_surface_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_94">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_106">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_107">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_108">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_109">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_110">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_103">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_104">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_111">
+        <property name="text">
+         <string>STALK SURFACE BELOW RING</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="stalk_surface_bekiw_ring_layout">
+        <item>
+         <widget class="QRadioButton" name="stalk_surface_bekiw_ring_fibrous">
+          <property name="text">
+           <string>fibrous</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_surface_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_surface_bekiw_ring_scaly">
+          <property name="text">
+           <string>scaly</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_surface_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_surface_bekiw_ring_silky">
+          <property name="text">
+           <string>silky</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_surface_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_surface_bekiw_ring_smooth">
+          <property name="text">
+           <string>smooth</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_surface_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_112">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_113">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_114">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_115">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_116">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_117">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_118">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_119">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>STALK COLOR ABOVE RING</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="stalk_color_above_ring_layout">
+        <item>
+         <widget class="QRadioButton" name="stalk_color_above_ring_brown">
+          <property name="text">
+           <string>brown</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_above_ring_buff">
+          <property name="text">
+           <string>buff</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_above_ring_gray">
+          <property name="text">
+           <string>gray</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_above_ring_orange">
+          <property name="text">
+           <string>orange</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_above_ring_pink">
+          <property name="text">
+           <string>pink</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_above_ring_red">
+          <property name="text">
+           <string>red</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_above_ring_white">
+          <property name="text">
+           <string>white</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_above_ring_yellow">
+          <property name="text">
+           <string>yellow</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_above_ring_cinnamon">
+          <property name="text">
+           <string>cinnamon</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_above_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_28">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_36">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_27">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>STALK COLOR BELOW RING</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="stalk_color_below_ring_layout">
+        <item>
+         <widget class="QRadioButton" name="stalk_color_below_ring_brown">
+          <property name="text">
+           <string>brown</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_below_ring_buff">
+          <property name="text">
+           <string>buff</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_below_ring_cinnamon">
+          <property name="text">
+           <string>cinnamon</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_below_ring_gray">
+          <property name="text">
+           <string>gray</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_below_ring_orange">
+          <property name="text">
+           <string>orange</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_below_ring_pink">
+          <property name="text">
+           <string>pink</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_below_ring_red">
+          <property name="text">
+           <string>red</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_below_ring_white">
+          <property name="text">
+           <string>white</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="stalk_color_below_ring_yellow">
+          <property name="text">
+           <string>yellow</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">stalk_color_below_ring_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_98">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_30">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_29">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_120">
+        <property name="text">
+         <string>VEIL TYPE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="veil_type_layout">
+        <item>
+         <widget class="QRadioButton" name="veil_type_partial">
+          <property name="text">
+           <string>partial</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">veil_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="veil_type_universal">
+          <property name="text">
+           <string>universal</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">veil_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_121">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_122">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_123">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_124">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_125">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_126">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_127">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_128">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_129">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_130">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_20">
+        <property name="text">
+         <string>VEIL COLOR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="veil_color_layout">
+        <item>
+         <widget class="QRadioButton" name="veil_color_brown">
+          <property name="text">
+           <string>brown</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">veil_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="veil_color_orange">
+          <property name="text">
+           <string>orange</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">veil_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="veil_color_white">
+          <property name="text">
+           <string>white</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">veil_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="veil_color_yellow">
+          <property name="text">
+           <string>yellow</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">veil_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_131">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_132">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_133">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_134">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_135">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_136">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_137">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_138">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_18">
+        <property name="text">
+         <string>RING NUMBER</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="ring_number_layout">
+        <item>
+         <widget class="QRadioButton" name="ring_number_none">
+          <property name="text">
+           <string>none</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_number_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ring_number_one">
+          <property name="text">
+           <string>one</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_number_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ring_number_two">
+          <property name="text">
+           <string>two</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_number_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_26">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_139">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_140">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_141">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_142">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_143">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_144">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_145">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_146">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_158">
+        <property name="text">
+         <string>RING TYPE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="ring_type_layout">
+        <item>
+         <widget class="QRadioButton" name="ring_type_flaring">
+          <property name="text">
+           <string>flaring</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ring_type_large">
+          <property name="text">
+           <string>large</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ring_type_none">
+          <property name="text">
+           <string>none</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ring_type_pendant">
+          <property name="text">
+           <string>pendant</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ring_type_zone">
+          <property name="text">
+           <string>zone</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ring_type_sheathing">
+          <property name="text">
+           <string>sheathing</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ring_type_evanescent">
+          <property name="text">
+           <string>evanescent</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ring_type_cobwebby">
+          <property name="text">
+           <string>cobwebby</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">ring_type_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_154">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_155">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_156">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_157">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_152">
+        <property name="text">
+         <string>SPORE PRINT COLOR</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="spore_print_color_layout">
+        <item>
+         <widget class="QRadioButton" name="spore_print_color_black">
+          <property name="text">
+           <string>black</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">spore_print_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="spore_print_color_brown">
+          <property name="text">
+           <string>brown</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">spore_print_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="spore_print_color_buff">
+          <property name="text">
+           <string>buff</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">spore_print_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="spore_print_color_green">
+          <property name="text">
+           <string>green</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">spore_print_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="spore_print_color_orange">
+          <property name="text">
+           <string>orange</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">spore_print_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="spore_print_color_purple">
+          <property name="text">
+           <string>purple</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">spore_print_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="spore_print_color_white">
+          <property name="text">
+           <string>white</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">spore_print_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="spore_print_color_yellow">
+          <property name="text">
+           <string>yellow</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">spore_print_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="spore_print_color_chocolate">
+          <property name="text">
+           <string>chocolate</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">spore_print_color_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_149">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_150">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_151">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_161">
+        <property name="text">
+         <string>POPULATION</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="population_layout">
+        <item>
+         <widget class="QRadioButton" name="population_abundant">
+          <property name="text">
+           <string>abundant</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">population_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="population_clustered">
+          <property name="text">
+           <string>clustered</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">population_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="population_numerous">
+          <property name="text">
+           <string>numerous</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">population_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="population_scattered">
+          <property name="text">
+           <string>scattered</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">population_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="population_several">
+          <property name="text">
+           <string>several</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">population_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="population_solitary">
+          <property name="text">
+           <string>solitary</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">population_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_147">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_148">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_178">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_153">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_159">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_160">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_167">
+        <property name="text">
+         <string>HABITAT</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="habitat_layout">
+        <item>
+         <widget class="QRadioButton" name="habitat_grasses">
+          <property name="text">
+           <string>grasses</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">habitat_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="habitat_leaves">
+          <property name="text">
+           <string>leaves</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">habitat_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="habitat_meadows">
+          <property name="text">
+           <string>meadows</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">habitat_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="habitat_paths">
+          <property name="text">
+           <string>paths</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">habitat_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="habitat_urban">
+          <property name="text">
+           <string>urban</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">habitat_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="habitat_waste">
+          <property name="text">
+           <string>waste</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">habitat_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="habitat_woods">
+          <property name="text">
+           <string>woods</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">habitat_group</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_177">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_163">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_164">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_165">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_166">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_23">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>1131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/gill-spacing-close/img/gill-spacing-close.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_19">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/cap-surface-fibrous/img/cap-surface-fibrous.png)</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/stalk-root-club/img/stalk-root-club.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_33">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/cap-shape-conical/img/cap-shape-conical.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/stalk-root-bulbous/img/stalk-root-bulbous.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_21">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/stalk-root-equal/img/stalk-root-equal.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_17">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/cap-surface-scaly/img/cap-sufrce-scaly.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/cap-surface-smooth/img/cap-surface-smooth.png)</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/cap-shape-flat/img/cap-shape-flat.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/cap-shape-bell/img/cap-shape-bell.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_34">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/cap-shape-convex/img/cap-shape-convex.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="styleSheet">
+        <string notr="true">image: url(:/gill-spacing-crowded/img/gill-spacing-crowded.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_24">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>720</y>
+      <width>1131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_105">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="is_edible_button">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(46, 204, 113, 0.4);</string>
+       </property>
+       <property name="text">
+        <string>Is this mushroom edible?</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_95">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>832</width>
+     <width>1173</width>
      <height>22</height>
     </rect>
    </property>
   </widget>
  </widget>
  <resources>
-  <include location="../qt/mushroom_attributes.qrc"/>
+  <include location="mushroom_attributes.qrc"/>
  </resources>
  <connections/>
  <buttongroups>
-  <buttongroup name="bruises_group"/>
   <buttongroup name="cap_shape_group"/>
   <buttongroup name="cap_surface_group"/>
   <buttongroup name="cap_color_group"/>
+  <buttongroup name="bruises_group"/>
+  <buttongroup name="odor_group"/>
+  <buttongroup name="gill_attachment_group"/>
+  <buttongroup name="gill_spacing_group"/>
+  <buttongroup name="gill_size_group"/>
+  <buttongroup name="gill_color_group"/>
+  <buttongroup name="stalk_shape_group"/>
   <buttongroup name="stalk_root_group"/>
+  <buttongroup name="stalk_surface_above_ring_group"/>
+  <buttongroup name="stalk_surface_below_ring_group"/>
+  <buttongroup name="veil_type_group"/>
+  <buttongroup name="veil_color_group"/>
+  <buttongroup name="ring_number_group"/>
+  <buttongroup name="ring_type_group"/>
+  <buttongroup name="spore_print_color_group"/>
+  <buttongroup name="population_group"/>
+  <buttongroup name="habitat_group"/>
   <buttongroup name="stalk_color_above_ring_group"/>
   <buttongroup name="stalk_color_below_ring_group"/>
-  <buttongroup name="gill_spacing_group"/>
-  <buttongroup name="ring_number_group"/>
-  <buttongroup name="veil_color_group"/>
  </buttongroups>
 </ui>
