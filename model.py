@@ -2,7 +2,6 @@ import copy
 import sys
 
 from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QMessageBox
 
 import controller
 import data
@@ -14,31 +13,22 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         QtWidgets.QMainWindow.__init__(self, parent)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        self.ui.is_edible_button.clicked.connect(self.is_edible_button_clicked)
         self.ui.clear_selected_button.clicked.connect(self.clear_selected)
         self.button_groups = {}
         self.controller = controller
-        self.data = {}
+        self.data = copy.deepcopy(data.data)
         self.set_up_gui_data()
 
-    def is_edible_button_clicked(self):
-        self.data = copy.deepcopy(data.data)
-        self.check_values()
+    def get_predicted_result(self):
         category, result = self.controller.calculate(self.data)
         if category == 'undefined':
             edible_probability = round(result['edible'] * 100, 2)
-            QMessageBox.about(
-                self,
-                'Info',
-                f'The class of this mushroom is unknown.\nThe probability of it being edible is {edible_probability}%.'
-            )
+            message = f'<p style="color:red">The class of this mushroom is unknown.\n' \
+                      f'The probability of it being edible is {edible_probability}%</p>'
         else:
             probability = round(result[category] * 100, 2)
-            QMessageBox.about(
-                self,
-                'Info',
-                f'This mushroom is {category}.\nThe probability is {probability}%.'
-            )
+            message = f'This mushroom is {category}.\nThe probability is {probability}%.'
+        return message
 
     def set_up_gui_data(self):
         self.button_groups = self.get_all_groups()
@@ -48,6 +38,20 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             for i, button in enumerate(buttons):
                 group.setId(button, i)
                 self.button_groups[group]['values'].append(button.objectName().split('_')[-1])
+            group.buttonClicked.connect(self.update_predicted_result)
+
+    def update_predicted_result(self):
+        button_group = self.sender()
+        clicked_button_id = button_group.checkedId()
+        if clicked_button_id != -1:  # -1 means nothing was found:
+            name = self.button_groups[button_group]['name']
+            value = self.button_groups[button_group]['values'][clicked_button_id]
+            self.data[name] = value
+            result = self.get_predicted_result()
+            self.ui.result_label.setText(result)
+            # for el in self.data:  # for debugging purposes - print which radio buttons were selected
+            #     print(el, self.data[el])
+            # print('-------------------')
 
     def get_all_groups(self):
         """ Return all groups of radio boxes, ex. cap_shape_group, cap_surface_group, ..."""
@@ -55,25 +59,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 in self.children() if type(group) == QtWidgets.QButtonGroup}
 
     def clear_selected(self):
-        """ Clear all selected radio button"""
+        """ Clear all selected radio buttons """
+        self.data = copy.deepcopy(data.data)
+        self.ui.result_label.setText("")
         for group in self.button_groups:
             checked = group.checkedButton()
             if checked:
                 group.setExclusive(False)
                 checked.setChecked(False)
                 group.setExclusive(True)
-
-    def check_values(self):
-        """Assign values from slected radio buttons"""
-        for group in self.button_groups:
-            id = group.checkedId()
-            if id != -1:  # -1 means nothing was found:
-                name = self.button_groups[group]['name']
-                value = self.button_groups[group]['values'][id]
-                self.data[name] = value
-        # for el in self.data:  # for debugging purposes - print which radio buttons were selected
-        #     print(el, self.data[el])
-        # print('-------------------')
 
 
 def main():

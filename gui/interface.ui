@@ -93,7 +93,7 @@ color: black;</string>
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>-715</y>
+       <y>0</y>
        <width>1129</width>
        <height>1244</height>
       </rect>
@@ -2657,7 +2657,7 @@ color: black;</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>140</y>
+      <y>720</y>
       <width>1131</width>
       <height>31</height>
      </rect>
@@ -2785,50 +2785,31 @@ color: black;</string>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget_24">
+   <widget class="QLabel" name="label_162">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>720</y>
-      <width>1131</width>
-      <height>41</height>
+      <y>100</y>
+      <width>561</width>
+      <height>39</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
-     <item>
-      <widget class="QLabel" name="label_105">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="is_edible_button">
-       <property name="styleSheet">
-        <string notr="true">background-color: rgba(46, 204, 113, 0.4);</string>
-       </property>
-       <property name="text">
-        <string>Is this mushroom edible?</string>
-       </property>
-       <property name="autoDefault">
-        <bool>false</bool>
-       </property>
-       <property name="default">
-        <bool>false</bool>
-       </property>
-       <property name="flat">
-        <bool>false</bool>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_95">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;RESULT: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="result_label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>1129</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -2847,27 +2828,27 @@ color: black;</string>
  </resources>
  <connections/>
  <buttongroups>
-  <buttongroup name="cap_shape_group"/>
-  <buttongroup name="cap_surface_group"/>
-  <buttongroup name="cap_color_group"/>
-  <buttongroup name="bruises_group"/>
-  <buttongroup name="odor_group"/>
-  <buttongroup name="gill_attachment_group"/>
-  <buttongroup name="gill_spacing_group"/>
   <buttongroup name="gill_size_group"/>
-  <buttongroup name="gill_color_group"/>
-  <buttongroup name="stalk_shape_group"/>
-  <buttongroup name="stalk_root_group"/>
-  <buttongroup name="stalk_surface_above_ring_group"/>
-  <buttongroup name="stalk_surface_below_ring_group"/>
-  <buttongroup name="veil_type_group"/>
-  <buttongroup name="veil_color_group"/>
   <buttongroup name="ring_number_group"/>
-  <buttongroup name="ring_type_group"/>
-  <buttongroup name="spore_print_color_group"/>
-  <buttongroup name="population_group"/>
-  <buttongroup name="habitat_group"/>
   <buttongroup name="stalk_color_above_ring_group"/>
+  <buttongroup name="cap_surface_group"/>
+  <buttongroup name="gill_spacing_group"/>
+  <buttongroup name="odor_group"/>
+  <buttongroup name="stalk_root_group"/>
   <buttongroup name="stalk_color_below_ring_group"/>
+  <buttongroup name="population_group"/>
+  <buttongroup name="bruises_group"/>
+  <buttongroup name="gill_color_group"/>
+  <buttongroup name="gill_attachment_group"/>
+  <buttongroup name="stalk_surface_above_ring_group"/>
+  <buttongroup name="cap_color_group"/>
+  <buttongroup name="veil_color_group"/>
+  <buttongroup name="stalk_surface_below_ring_group"/>
+  <buttongroup name="spore_print_color_group"/>
+  <buttongroup name="ring_type_group"/>
+  <buttongroup name="habitat_group"/>
+  <buttongroup name="cap_shape_group"/>
+  <buttongroup name="stalk_shape_group"/>
+  <buttongroup name="veil_type_group"/>
  </buttongroups>
 </ui>
