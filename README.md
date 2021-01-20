@@ -33,6 +33,33 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=1
 export QT_SCALE_FACTOR=0.5
 ```
 
+## Results
+
+Two networks were created. The networks were tested with different thresholds for accepting answers as truth. 
+
+For example, if we set the threshold to 95%, we could have three possible scenarios:
+* **correct classification** - the mushroom is, let's say, edible and the network returns a 99.9% probability of it being edible (since 99.9 > 95.0),
+* **incorrect classification** - the mushroom is edible, but the network returns the opposite class with a probability exceeding the threshold (for example a 99.8% probability of it being poisonous and a 0.2% probability of it being edible),
+* **inconclusive classification** - the network returns some probabilities for both classes, but neither of them exceeds the threshold (like 55.5% for edible and 44.5% for poisonous).
+
+### Basic network
+
+![Basic network](model/network_v1.png)
+
+| threshold | classified correctly | classified incorrectly | inconclusive results |
+|-|-|-|-|
+| 95% | 8084 | 3 | 37 |
+| 99.991% | 7386 | 0 | 756
+
+### Larger network
+
+![Larger network](model/network_v2.png)
+
+| threshold | classified correctly | classified incorrectly | inconclusive results |
+|-|-|-|-|
+| 95% | 8107 | 9 | 8 |
+| 99.941% | 8085 | 0 | 39
+
 ## Bibliography
 
 Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
