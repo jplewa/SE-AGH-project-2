@@ -20,14 +20,27 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.set_up_gui_data()
 
     def get_predicted_result(self):
-        category, result = self.controller.calculate(self.data)
+        category, label, result = self.controller.calculate(self.data)
+        if category == 'error':
+            result = {
+                value: f'{str(round(probability * 100, 2))}%'
+                for value, probability in
+                result.items()
+            }
+
+            message = f'<p style="color:orange">Invalid option chosen.\n' \
+                      f'The probability distribution for {label} is {result}</p>'
+            return message
+
         if category == 'undefined':
             edible_probability = round(result['edible'] * 100, 2)
-            message = f'<p style="color:red">The class of this mushroom is unknown.\n' \
+            message = f'<p style="color:orange">The class of this mushroom is unknown.\n' \
                       f'The probability of it being edible is {edible_probability}%</p>'
         else:
+            color = 'green' if category == 'edible' else 'red'
             probability = round(result[category] * 100, 2)
-            message = f'This mushroom is {category}.\nThe probability is {probability}%.'
+            message = f'<p style="color:{color}">This mushroom is {category}. The probability is {probability}%.'
+
         return message
 
     def set_up_gui_data(self):
@@ -37,7 +50,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             self.button_groups[group]['values'] = []
             for i, button in enumerate(buttons):
                 group.setId(button, i)
-                self.button_groups[group]['values'].append(button.objectName().split('_')[-1])
+                self.button_groups[group]['values'].append(
+                    button.objectName().split('_')[-1])
             group.buttonClicked.connect(self.update_predicted_result)
 
     def update_predicted_result(self):
