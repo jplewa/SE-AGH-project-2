@@ -10,8 +10,11 @@ class Controller:
 
     def calculate(self, data):
         for mushroom_part, evidence in data.items():
-            if evidence is not None:
-                self.net.set_evidence(mushroom_part, evidence)
+            if evidence is None:
+                continue
+            if mushroom_part == 'bruises':
+                evidence = evidence == 'True'
+            self.net.set_evidence(mushroom_part, evidence)
         try:
             self.net.update_beliefs()
             edible, poisonous = self.net.get_node_value('Class')
