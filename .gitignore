@@ -8,3 +8,7 @@ __pycache__/
 # PySMILE license
 smile_license*
 pysmile_license*
+
+
+# IPYNB
+.ipynb_checkpoints/
